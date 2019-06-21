@@ -1,0 +1,15 @@
+{
+  "name": "Gazsify444",
+  "version": "1.1",
+  "description": "Szabad kommentelés 444-en.",
+  "manifest_version": 2,
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://444.hu/*","https://*.444.hu/*"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
